@@ -3,6 +3,45 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Visual Studio-specific files
+.vs/                # Visual Studio tijdelijke bestanden en instellingen
+*.user              # Gebruikersspecifieke projectinstellingen
+*.suo               # Solution User Options file
+*.cache             # Cache bestanden
+*.log               # Logbestanden
+ 
+# Build output and binaries
+bin/                # Build output
+obj/                # Object files en tijdelijke buildbestanden
+*.dll               # Gecodeerde libraries
+*.exe               # Uitvoerbare bestanden
+*.pdb               # Debugging-informatie
+*.ilk               # Incremental linker files
+*.aps               # Visual Studio resource project files
+*.nupkg             # NuGet package bestanden
+ 
+# NuGet-specific files
+.nuget/             # NuGet package bestanden
+packages/           # Afhankelijke packages
+project.lock.json   # Lock-bestand voor packages (oudere versies)
+package-lock.json   # Lock-bestand voor NPM packages
+*.nuget.props       # NuGet build properties
+*.nuget.targets     # NuGet build targets
+ 
+# .NET MAUI and Xamarin-specific files
+platforms/          # Platformspecifieke buildbestanden (Android/iOS/macOS/Windows)
+AppPackages/        # MAUI app packages
+artifacts/          # Build artifacts
+ 
+# Configuration and environment files
+*.config            # Configuratiebestanden
+*.ini               # Initialisatiebestanden
+*.env               # Gevoelige omgevingsvariabelen
+secrets.json        # Gevoelige configuraties
+ 
+# macOS-specific files
+.DS_Store           # macOS systeembestanden
+
 # User-specific files
 *.rsuser
 *.suo
