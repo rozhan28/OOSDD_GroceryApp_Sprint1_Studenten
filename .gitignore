@@ -37,6 +37,7 @@ artifacts/
 *.config
 *.ini
 *.env
+secrets.json
  
 # macOS-specific files
 .DS_Store
